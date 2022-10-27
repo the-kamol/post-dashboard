@@ -1,5 +1,3 @@
-import React from "react";
+import React from 'react';
 
-export const createPost = () => {
-  return <div>createPost</div>;
-};
+export const createPost = () => <div>createPost</div>;
