@@ -31,11 +31,11 @@ Are you seriously trying to write that shi\*\*ty code, bro? Make the changes req
 false;
 )
 
-npm run test:ci ||
-(
-echo 'Failed on Testing!'
-false;
-)
+# npm run test:ci ||
+# (
+# echo 'Failed on Testing!'
+# false;
+# )
 
 # If everything passes... Now we can commit
 

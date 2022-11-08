@@ -72,6 +72,7 @@
       }
     ],
     "camelcase": "off",
-    "max-lines": ["error", { "max": 350, "skipBlankLines": true }]
+    "max-lines": ["error", { "max": 350, "skipBlankLines": true }],
+    "no-param-reassign": 0
   }
 }
