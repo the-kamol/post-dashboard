@@ -26,20 +26,9 @@ const postSlice = createSlice({
         return post;
       });
     },
-    searchByTitle: (state, action: PayloadAction<string>) => {
-      state.posts = state.posts.filter((curr) =>
-        curr.title.toLowerCase().includes(action.payload.toLowerCase())
-      );
-    },
-    filterByStatus: (state, action: PayloadAction<string>) => {
-      state.posts = state.posts.filter(
-        (curr) => curr.status === action.payload
-      );
-    },
   },
 });
 
-export const { createPost, updateStatus, searchByTitle, filterByStatus } =
-  postSlice.actions;
+export const { createPost, updateStatus } = postSlice.actions;
 
 export default postSlice.reducer;
